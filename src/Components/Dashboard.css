@@ -1,0 +1,36 @@
+#beginner {
+  animation: slide1 0.2s ease-in-out;
+  
+}
+@keyframes slide1 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#intermediate {
+  animation: slide2 0.2s ease-in-out;
+}
+@keyframes slide2 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#advance {
+  animation: slide3 0.2s ease-in-out;
+}
+@keyframes slide3 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
